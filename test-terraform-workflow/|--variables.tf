@@ -1,9 +1,9 @@
-variable "cat's_name" {
+variable "content" {
   type = string
-  default = "Eddie"
+  default = "print("Hello World")"
 }
 
-variable "cat's_age" {
-  type = number
-  default = 1
+variable "filename" {
+  type = string
+  default = "file_name.py"
 }
